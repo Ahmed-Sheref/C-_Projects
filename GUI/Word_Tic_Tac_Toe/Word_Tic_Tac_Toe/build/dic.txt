@@ -1,0 +1,28 @@
+slides ibrahem reda
+anova with clac
+paper's ehab al.... (rules)
+-----------------------------
+estimation -> flashat & solve sheet 
+hyp -> flashat & solve sheet
+anova -> video drive 
+
+
+problem 4
+problem 5
+
+
+alpha or ((((((((((((((not)))))))))))
+
+
+k or a = # of tratment
+n = # of sample size of each group
+N = # of all obs
+
+anova df_1 ->
+anova df_2 ->
+
+first result is -> SSW of each group
+secound -> sum these result -> SSW
+all data -> total SSW
+SSB -> total - SSW
+

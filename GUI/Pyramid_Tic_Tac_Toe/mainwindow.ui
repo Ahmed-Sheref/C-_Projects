@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1338</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <fontweight>Thin</fontweight>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+    background-color: #000000;  /* Black background for the entire window */
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_1">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>150</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font-family: 'Comic Sans MS';
+    background-color: #000000; /* Black background */
+    border: 2px solid #FFFFFF; /* White border */
+    font-size: 36px;
+    font-weight: bold;
+    color: #FF7F00; /* Default color for X */
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+QPushButton:pressed {
+    background-color: #000000; /* Darker gray when pressed */
+}
+
+QPushButton:disabled {
+    background-color: #000000; /* Darker background for disabled buttons */
+}
+
+QPushButton#O {
+    color: #FF7F00; /* Orange color for O */
+}e5</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>250</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font-family: 'Comic Sans MS';
+    background-color: #000000; /* Black background */
+    border: 2px solid #FFFFFF; /* White border */
+    font-size: 36px;
+    font-weight: bold;
+    color: #FF7F00; /* Default color for X */
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+QPushButton:pressed {
+    background-color: #000000; /* Darker gray when pressed */
+}
+
+QPushButton:disabled {
+    background-color: #000000; /* Darker background for disabled buttons */
+}
+
+QPushButton#O {
+    color: #FF7F00; /* Orange color for O */
+}e5</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>250</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font-family: 'Comic Sans MS';
+    background-color: #000000; /* Black background */
+    border: 2px solid #FFFFFF; /* White border */
+    font-size: 36px;
+    font-weight: bold;
+    color: #FF7F00; /* Default color for X */
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+QPushButton:pressed {
+    background-color: #000000; /* Darker gray when pressed */
+}
+
+QPushButton:disabled {
+    background-color: #000000; /* Darker background for disabled buttons */
+}
+
+QPushButton#O {
+    color: #FF7F00; /* Orange color for O */
+}e5</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>1110</x>
+      <y>350</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font-family: 'Comic Sans MS';
+    background-color: #000000; /* Black background */
+    border: 2px solid #FFFFFF; /* White border */
+    font-size: 36px;
+    font-weight: bold;
+    color: #FF7F00; /* Default color for X */
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+QPushButton:pressed {
+    background-color: #000000; /* Darker gray when pressed */
+}
+
+QPushButton:disabled {
+    background-color: #000000; /* Darker background for disabled buttons */
+}
+
+QPushButton#O {
+    color: #FF7F00; /* Orange color for O */
+}e5</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>350</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font-family: 'Comic Sans MS';
+    background-color: #000000; /* Black background */
+    border: 2px solid #FFFFFF; /* White border */
+    font-size: 36px;
+    font-weight: bold;
+    color: #FF7F00; /* Default color for X */
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+QPushButton:pressed {
+    background-color: #000000; /* Darker gray when pressed */
+}
+
+QPushButton:disabled {
+    background-color: #000000; /* Darker background for disabled buttons */
+}
+
+QPushButton#O {
+    color: #FF7F00; /* Orange color for O */
+}e5</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>250</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font-family: 'Comic Sans MS';
+    background-color: #000000; /* Black background */
+    border: 2px solid #FFFFFF; /* White border */
+    font-size: 36px;
+    font-weight: bold;
+    color: #FF7F00; /* Default color for X */
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+QPushButton:pressed {
+    background-color: #000000; /* Darker gray when pressed */
+}
+
+QPushButton:disabled {
+    background-color: #000000; /* Darker background for disabled buttons */
+}
+
+QPushButton#O {
+    color: #FF7F00; /* Orange color for O */
+}e5</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>350</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font-family: 'Comic Sans MS';
+    background-color: #000000; /* Black background */
+    border: 2px solid #FFFFFF; /* White border */
+    font-size: 36px;
+    font-weight: bold;
+    color: #FF7F00; /* Default color for X */
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+QPushButton:pressed {
+    background-color: #000000; /* Darker gray when pressed */
+}
+
+QPushButton:disabled {
+    background-color: #000000; /* Darker background for disabled buttons */
+}
+
+QPushButton#O {
+    color: #FF7F00; /* Orange color for O */
+}e5</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>350</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font-family: 'Comic Sans MS';
+    background-color: #000000; /* Black background */
+    border: 2px solid #FFFFFF; /* White border */
+    font-size: 36px;
+    font-weight: bold;
+    color: #FF7F00; /* Default color for X */
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+QPushButton:pressed {
+    background-color: #000000; /* Darker gray when pressed */
+}
+
+QPushButton:disabled {
+    background-color: #000000; /* Darker background for disabled buttons */
+}
+
+QPushButton#O {
+    color: #FF7F00; /* Orange color for O */
+}e5</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>350</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font-family: 'Comic Sans MS';
+    background-color: #000000; /* Black background */
+    border: 2px solid #FFFFFF; /* White border */
+    font-size: 36px;
+    font-weight: bold;
+    color: #FF7F00; /* Default color for X */
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+QPushButton:pressed {
+    background-color: #000000; /* Darker gray when pressed */
+}
+
+QPushButton:disabled {
+    background-color: #000000; /* Darker background for disabled buttons */
+}
+
+QPushButton#O {
+    color: #FF7F00; /* Orange color for O */
+}e5</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>50</y>
+      <width>531</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>35</pointsize>
+      <italic>false</italic>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	font-family: 'Comic Sans MS';
+    color: white;
+    background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string>Pyramid Tic - Tac - Toe </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>310</y>
+      <width>291</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <fontweight>Thin</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    font-weight: 100; /* Thin font weight */
+  color:white;     /* Set text color */
+    background-color: transparent; /* Transparent background */</string>
+    </property>
+    <property name="text">
+     <string>Player 2 (O) </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>310</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <fontweight>Thin</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    font-weight: 100; /* Thin font weight */
+  color:white;     /* Set text color */
+    background-color: transparent; /* Transparent background */</string>
+    </property>
+    <property name="text">
+     <string>TIE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player_1_wins">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>380</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <fontweight>Thin</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    font-weight: 100; /* Thin font weight */
+  color:white;     /* Set text color */
+    background-color: transparent; /* Transparent background */</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Tie_Times">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>380</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <fontweight>Thin</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    font-weight: 100; /* Thin font weight */
+  color:white;     /* Set text color */
+    background-color: transparent; /* Transparent background */</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player_2_wins">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>380</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <fontweight>Thin</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    font-weight: 100; /* Thin font weight */
+  color:white;     /* Set text color */
+    background-color: transparent; /* Transparent background */</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>310</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <fontweight>Thin</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    font-weight: 100; /* Thin font weight */
+  color:white;     /* Set text color */
+    background-color: transparent; /* Transparent background */</string>
+    </property>
+    <property name="text">
+     <string>Player 1 (X) </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_player">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>520</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton {
+        background-color: transparent;
+        color: white;
+        border: 2px solid white;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    QPushButton:hover {
+        background-color: rgba(255, 255, 255, 0.2);  /* Light hover effect */
+        border-color: rgba(255, 255, 255, 0.5);  /* Slightly lighter border on hover */
+    }
+
+    QPushButton:pressed {
+        background-color: rgba(255, 255, 255, 0.4);  /* Darker background on click */
+        border-color: rgba(255, 255, 255, 0.7);  /* Lighter border on click */
+    }
+
+    QPushButton:focus {
+        outline: none;  /* Remove focus outline */
+    }</string>
+    </property>
+    <property name="text">
+     <string>1P  👤</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_multi">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>520</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton {
+        background-color: transparent;
+        color: white;
+        border: 2px solid white;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    QPushButton:hover {
+        background-color: rgba(255, 255, 255, 0.2);  /* Light hover effect */
+        border-color: rgba(255, 255, 255, 0.5);  /* Slightly lighter border on hover */
+    }
+
+    QPushButton:pressed {
+        background-color: rgba(255, 255, 255, 0.4);  /* Darker background on click */
+        border-color: rgba(255, 255, 255, 0.7);  /* Lighter border on click */
+    }
+
+    QPushButton:focus {
+        outline: none;  /* Remove focus outline */
+    }</string>
+    </property>
+    <property name="text">
+     <string>2P  👥</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>530</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <fontweight>Thin</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    font-weight: 100; /* Thin font weight */
+  color:white;     /* Set text color */
+    background-color: transparent; /* Transparent background */</string>
+    </property>
+    <property name="text">
+     <string>Game Mode : </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Game_mode">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>530</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <fontweight>Thin</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    font-weight: 100; /* Thin font weight */
+  color:white;     /* Set text color */
+    background-color: transparent; /* Transparent background */</string>
+    </property>
+    <property name="text">
+     <string>Multiplayer</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>1230</x>
+      <y>60</y>
+      <width>49</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Reset_score">
+    <property name="geometry">
+     <rect>
+      <x>1180</x>
+      <y>30</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton {
+        background-color: transparent;
+        color: white;
+        border: 2px solid white;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    QPushButton:hover {
+        background-color: rgba(255, 255, 255, 0.2);  /* Light hover effect */
+        border-color: rgba(255, 255, 255, 0.5);  /* Slightly lighter border on hover */
+    }
+
+    QPushButton:pressed {
+        background-color: rgba(255, 255, 255, 0.4);  /* Darker background on click */
+        border-color: rgba(255, 255, 255, 0.7);  /* Lighter border on click */
+    }
+
+    QPushButton:focus {
+        outline: none;  /* Remove focus outline */
+    }</string>
+    </property>
+    <property name="text">
+     <string>Reset Score</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
